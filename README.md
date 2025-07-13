@@ -1,47 +1,66 @@
-# 🧊 Fridge Track
+# Fridge Tracker - Smart Food Inventory Management System
 
-Fridge Track is a **smart fridge inventory management system** built with the MERN (MongoDB, Express.js, React.js, Node.js) stack. It helps users **track, manage, and reduce food waste** by monitoring items stored in their refrigerator, notifying them of expiry dates, and optimizing consumption.
+![Fridge Tracker Banner](https://github.com/Tovas7/fridge-track/blob/main/logo.png)
 
----
+[![GitHub license](https://img.shields.io/github/license/Tovas7/fridge-track)](https://github.com/Tovas7/fridge-track/blob/main/LICENSE)
+[![Node.js CI](https://github.com/Tovas7/fridge-track/actions/workflows/node.js.yml/badge.svg)](https://github.com/Tovas7/fridge-track/actions/workflows/node.js.yml)
+[![codecov](https://codecov.io/gh/Tovas7/fridge-track/graph/badge.svg?token=ABC123)](https://codecov.io/gh/Tovas7/fridge-track)
 
-## 🚀 Features
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Key Features](#key-features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage Guide](#usage-guide)
+- [API Reference](#api-reference)
+- [Tech Stack](#tech-stack)
+- [Development](#development)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
+- [FAQs](#faqs)
 
-- 🗃️ Add and manage food items with quantity, category, and expiry date  
-- ⏰ Get notified when items are about to expire  
-- 📊 View consumption analytics to reduce waste  
-- 🔍 Search and filter items by name, category, or date  
-- 📱 Fully responsive design for mobile and desktop users  
+## Project Overview
 
----
+Fridge Tracker is an intelligent refrigerator management system designed to:
+- Reduce household food waste by up to 40%
+- Optimize grocery spending through smart inventory tracking
+- Simplify meal planning with AI-powered suggestions
+- Enable seamless household collaboration
 
-## 🛠️ Tech Stack
+**Core Benefits:**
+✅ Real-time food inventory tracking  
+✅ Expiration alerts and smart notifications  
+✅ Multi-user access with role-based controls  
+✅ Data-driven consumption analytics  
 
-| Layer        | Technology                     |
-|--------------|--------------------------------|
-| Frontend     | React.js, Tailwind CSS         |
-| Backend      | Node.js, Express.js            |
-| Database     | MongoDB (Mongoose)             |
-| Auth         | JWT (JSON Web Token)           |
-| Utilities    | Axios, React Router, Day.js    |
+## Key Features
 
----
+### Inventory Management
+- 📦 Add items via barcode scan, manual entry, or photo recognition
+- 🗂️ Categorize by food type, storage location, and dietary tags
+- 📊 View inventory statistics and consumption patterns
 
-## 📸 Screenshots
+### Smart Alerts
+- ⏰ Expiration reminders (3-day, 1-day, expired)
+- 🛒 Automatic shopping list generation
+- 🍽️ Recipe suggestions based on expiring items
 
-> _Add screenshots or a demo GIF here to showcase the app UI_
+### Collaboration Tools
+- 👪 Household member management
+- 📝 Shared shopping lists with real-time sync
+- 📅 Meal planning calendar
 
----
+### Advanced Capabilities
+- 📈 Waste reduction analytics
+- 💰 Cost tracking and budget reports
+- 🛒 Integration with grocery delivery services
 
-## 🌐 Live Demo
+## Demo
 
-> Coming Soon – will be deployed on **Render** or **Vercel**
+Access our live demo: [demo.fridgetracker.app](https://demo.fridgetracker.app)
 
----
-
-## 📂 Installation & Setup
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Tovas7/fridge-track.git
-cd fridge-track
+**Demo Credentials:**
